@@ -1,0 +1,10 @@
+{
+  "name": "glintcopy",
+  "version": "1.0.0",
+  "dependencies": [
+    "cli11",
+    "eigen3",
+    "gsl",
+    "opencv"
+  ]
+}

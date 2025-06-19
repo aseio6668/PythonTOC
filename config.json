@@ -1,0 +1,33 @@
+{
+  "namespace": "converted",
+  "include_headers": true,
+  "type_mapping": {
+    "int": "int",
+    "float": "double", 
+    "str": "std::string",
+    "bool": "bool",
+    "list": "std::vector",
+    "dict": "std::map"
+  },
+  "library_preferences": {
+    "math": "cmath",
+    "random": "random",
+    "collections": "stl_containers"
+  },
+  "code_style": {
+    "indent": "    ",
+    "brace_style": "attached",
+    "naming_convention": "snake_case"
+  },
+  "optimizations": {
+    "inline_small_functions": true,
+    "const_correctness": true,
+    "smart_pointers": true
+  },
+  "output": {
+    "generate_cmake": true,
+    "generate_makefile": false,
+    "generate_tests": false,
+    "split_headers": false
+  }
+}
